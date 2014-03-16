@@ -1,0 +1,218 @@
+#This work is free to do with and alter as you will, unconditionally.
+#
+
+
+
+#####################################################################
+#
+# name: Whatever
+# made: Whoever
+# date: Whenever
+#
+#
+#################################################### FONTS ##########
+
+window.font:                    Monospace- 10:
+menu.frame.font:                Monospace- 10:
+menu.title.font:                MonospaceTypewriter- 10:
+toolbar.clock.font:             Monospace- 11:
+toolbar.workspace.font:         Monospace- 11:
+toolbar.iconbar.focused.font:   Monospace- 11:
+toolbar.iconbar.unfocused.font: Monospace- 11:
+font:                           Monospace- 10:
+
+#################################################### MENU ###########
+
+menu.bevelWidth:				8
+
+menu.itemHeight:				28
+menu.titleHeight:				28
+menu.borderColor:					#131313
+menu.borderWidth:				1
+
+menu.bullet:					diamond
+menu.bullet.position:			Right
+
+menu.title:						sunken gradient elliptic
+menu.title.pixmap:                              green.xpm
+menu.title.justify:				center
+menu.title.color:					#7FTGAB
+menu.title.colorTo:					#5Y5Y5Y
+menu.title.textColor:				#777777
+
+menu.frame:						raised gradient vertical
+menu.frame.justify:				left
+menu.frame.color:					#4E4E4E
+menu.frame.colorTo:					#3E3E3E
+menu.frame.textColor:				#e7e7e7
+menu.frame.disableColor:			#7FB256
+
+###Menu Green Highlight/Pixmap###
+menu.hilite:						raised gradient elliptic
+menu.hilite.pixmap:                             green.xpm
+menu.hilite.justify:				center
+menu.hilite.colorTo:					#7FB256
+menu.hilite.color:					#3E3E3E
+menu.hilite.textColor:				#e7e7e7
+
+#################################################### TOOLBAR ########
+
+toolbar.bevelWidth:				   3
+
+toolbar.borderWidth:			   1
+toolbar.borderColor:					#131313
+
+toolbar.height:					   28
+
+toolbar.justify:				   center
+
+toolbar:						   raised gradient vertical
+toolbar.pixmap:					   tbarfcs.xpm
+toolbar.color:							#4E4E4E
+toolbar.colorTo:						#3E3E3E
+
+toolbar.clock:					   flat gradient vertical
+toolbar.clock.justify:			   center
+toolbar.clock.pixmap:              tbarfcs.xpm
+toolbar.clock.color:					#4E4E4E
+toolbar.clock.colorTo:					#3E3E3E
+toolbar.clock.textColor:				#e7e7e7
+
+toolbar.workspace:					sunken
+toolbar.workspace.justify:			Center
+toolbar.workspace.color:				#4E4E4E
+toolbar.workspace.colorTo:				#3E3E3E
+toolbar.workspace.textColor:			#e7e7e7
+
+toolbar.button:						parentrelative
+toolbar.button.color:					#4E4E4E
+toolbar.button.colorTo:					#3E3E3E
+toolbar.button.picColor:				#e7e7e7
+toolbar.button.pressed:				sunken gradient vertical 
+toolbar.button.pressed.color:			#4E4E4E
+toolbar.button.pressed.colorTo:			#3E3E3E
+toolbar.button.pressed.picColor:		#ffffff
+
+toolbar.iconbar.empty:				parentrelative
+toolbar.iconbar.empty.color:			#4E4E4E
+toolbar.iconbar.empty.colorTo:			#3E3E3E
+
+toolbar.iconbar.focused:			raised gradient elliptic
+toolbar.iconbar.focused.pixmap:                 green.xpm
+toolbar.iconbar.focused.color:			#7FB256
+toolbar.iconbar.focused.colorTo:		#3E3E3E
+toolbar.iconbar.focused.textColor:		#000000
+toolbar.iconbar.focused.justify:	center
+
+toolbar.iconbar.unfocused:			raised bevel1 gradient vertical
+toolbar.iconbar.unfocused.pixmap:               tbarufcs.xpm
+toolbar.iconbar.unfocused.color:		#4E4E4E
+toolbar.iconbar.unfocused.colorTo:		#3R3R3R
+toolbar.iconbar.unfocused.textColor:	#999999
+toolbar.iconbar.unfocused.justify:	center
+
+#################################################### WINDOW #########
+
+window.bevelWidth:				9
+window.shade:					true
+window.borderWidth:				8
+window.borderColor:					#000000
+
+#window.focus.borderWidth:		4
+#window.focus.borderColor:			#e9f298
+
+#window.unfocus.borderWidth:	4
+#window.unfocus.borderColor:		#fcfcfc
+
+window.justify:					Center
+
+window.title.height:			30
+
+window.title.focus:				flat
+window.title.focus.pixmap:		tbarfcs.xpm
+window.title.focus.color:			#
+window.title.focus.colorTo:			#
+window.title.unfocus:			flat
+window.title.unfocus.pixmap:	tbarufcs.xpm
+window.title.unfocus.color:			#
+window.title.unfocus.colorTo:		#
+
+window.label.focus:				flat
+window.label.focus.pixmap:		tbargreen.xpm
+window.label.focus.color:			#
+window.label.focus.colorTo:			#
+window.label.focus.textColor:		#000000
+window.label.unfocus:			flat
+window.label.unfocus.pixmap:	tbarufcs.xpm
+window.label.unfocus.color:			#
+window.label.unfocus.colorTo:		#
+window.label.unfocus.textColor:		#e7e7e7
+
+window.button.focus:			flat
+window.button.focus.color:      	#
+window.button.focus.colorTo:    	#
+window.button.focus.picColor:		#
+window.button.unfocus:			flat
+window.button.unfocus.Color:		#
+window.button.unfocus.ColorTo:		#
+window.button.unfocus.picColor:		#
+window.button.pressed:			flat
+window.button.pressed.color:		#
+window.button.pressed.colorTo:		#
+window.button.pressed.picColor:		#
+
+window.shade.pixmap:				#
+window.shade.unfocus.pixmap:		#
+window.shade.pressed.pixmap:		#
+
+window.unshade.pixmap:				#
+window.unshade.unfocus.pixmap:		#
+window.unshade.pressed.pixmap:		#
+
+window.menuicon.pixmap:				#
+window.menuicon.unfocus.pixmap:		#
+window.menuicon.pressed.pixmap:		#
+
+window.close.pixmap:				close_red.xpm
+window.close.unfocus.pixmap:		unfocus.xpm
+window.close.pressed.pixmap:		close_red_pr.xpm
+
+window.iconify.pixmap:				min_blue.xpm
+window.iconify.unfocus.pixmap:		unfocus.xpm
+window.iconify.pressed.pixmap:		min_blue_pr.xpm
+
+window.maximize.pixmap:				max_yellow.xpm
+window.maximize.unfocus.pixmap:		unfocus.xpm
+window.maximize.pressed.pixmap:		max_yellow_pr.xpm
+
+window.stick.pixmap:				#
+window.stick.unfocus.pixmap:		#
+window.stick.pressed.pixmap:		#
+
+window.stuck.pixmap:				#
+window.stuck.unfocus.pixmap:		stuckufcs.xpm
+window.stuck.pressed.pixmap:		#
+
+window.handle.focus:				flat
+window.handle.focus.pixmap:			tbarfcs.xpm
+window.handle.focus.color:			#
+window.handle.focus.colorTo:		#
+window.handle.unfocus:				flat
+window.handle.unfocus.pixmap:		tbarufcs.xpm
+window.handle.unfocus.color:		#
+window.handle.unfocus.colorTo:		#
+window.handleWidth:			3
+
+window.grip.focus:					flat
+window.grip.focus.pixmap:			tbarfcs.xpm
+window.grip.focus.color:			#
+window.grip.focus.colorTo:			#
+window.grip.unfocus:				flat
+window.grip.unfocus.pixmap:			tbarufcs.xpm
+window.grip.unfocus.color:			#
+window.grip.unfocus.colorTo:		#
+
+
+
+#####################################################################
+# EOF
